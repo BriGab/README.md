@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("what-the-hex.png");
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 150%;
+    color: #777777;
+    height: 100%;
+    overflow: auto;
+    display: block;
+    position: relative;
+    padding-bottom: 58px;
+}
+#banner {
+    background: #ffffff;
+    width: 100%;
+    padding: 30px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom:20px;
+    top:0;
+}
+#container {
+    width: 960px;
+    height: 30px;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 0 auto 0;
+}
+ul {
+    list-style-type: none;
+    color: #dddddd;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+#name {
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    top:-30px;
+    left:0px;
+    text-align: center;
+    padding: 33px;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#wrapper {
+    background: #ffffff;
+    position: relative;
+    width: 960px;
+    text-align: left;
+    margin: 0 auto;
+    min-height: 100%;
+    border: 1px solid #dddddd;
+    padding: -58px;
+  
+    
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-size: 32px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+img {
+    float: left;
+    margin-top: 0px;
+    margin-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    
+}
+
+#footer {
+    background: #666666;
+    border-top: 8px solid #4aaaa5;
+    height: 50px;
+    text-align: center;
+    line-height: 400%;
+    margin: 0 auto;
+    padding: 0px;
+    border-bottom: 0px;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+
+}
+
+form {
+    margin: 30px;
+}
+
+input {
+    width: 900px;
+    height: 25px;
+    padding: 5px;
+}
+
+#submit {
+    width: 80px;
+    background:#4aaaa5;
+}
