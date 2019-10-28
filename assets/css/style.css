@@ -8,12 +8,14 @@ body {
     margin: 0;
     line-height: 150%;
     color: #777777;
-    height: 100%;
+    min-height: 100%;
     overflow: auto;
     display: block;
     position: relative;
     padding-bottom: 58px;
 }
+/* white banner for top of page */
+
 #banner {
     background: #ffffff;
     width: 100%;
@@ -22,6 +24,8 @@ body {
     margin-bottom:20px;
     top:0;
 }
+
+/* container to push width to 960 in order to hold list and name*/
 #container {
     width: 960px;
     height: 30px;
@@ -30,6 +34,7 @@ body {
     padding-top: 0px;
     margin: 0 auto 0;
 }
+/* list of contact information*/
 ul {
     list-style-type: none;
     color: #dddddd;
@@ -46,6 +51,7 @@ a {
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
 }
+/* Name on banner at top of page */
 #name {
     background: #4aaaa5;
     color: #ffffff;
@@ -58,24 +64,26 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+/* main content area containing heading, image, and paragraphs*/
+
 #wrapper {
     background: #ffffff;
     position: relative;
     width: 960px;
+    min-height: 100%;
     text-align: left;
     margin: 0 auto;
-    min-height: 100%;
     border: 1px solid #dddddd;
-    padding: -58px;
-  
-    
+    padding: 20px;
+    padding-bottom: 50px;
 }
+/* about me header*/
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#4aaaa5;
     font-size: 32px;
     text-align: left;
-    margin: 30px;
+    margin: 10px;
     margin-top: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -84,17 +92,18 @@ h1 {
 
 img {
     float: left;
-    margin-top: 0px;
-    margin-left: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
     padding-right: 30px;
     padding-bottom: 0px;
 }
 
 p{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 30px;
-    
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #footer {
@@ -102,27 +111,75 @@ p{
     border-top: 8px solid #4aaaa5;
     height: 50px;
     text-align: center;
-    line-height: 400%;
-    margin: 0 auto;
-    padding: 0px;
-    border-bottom: 0px;
     color: #ffffff;
     position: absolute;
+    bottom: -4px;
+    margin-top:-50px;
     width: 100%;
-
+    clear: both;
 }
 
+/* start contact.html page- form to enter information*/ 
 form {
-    margin: 30px;
+    margin: 10px;
+    margin-top: 15px;
 }
 
 input {
-    width: 900px;
+    width: 860px;
     height: 25px;
     padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+#message {
+    height: 200px;
+}
+/* submit button below form */
+button {
+    width: 100px;
+    height: 30px;
+    background:#4aaaa5;
+    color: #ffffff;
+    border:0px;
+    margin-top: 20px;
 }
 
-#submit {
-    width: 80px;
-    background:#4aaaa5;
+/* Portfolio page */
+
+.container {
+    height: 600px;
+    position: relative;
+}
+.box {
+    position: relative;
+    width: 275px;
+    height: 183px;
+}
+h3{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom:0;
+    margin-left: 8px;
+    padding:15px;
+    width: 100%;
+    color: #ffffff;
+    background: #4aaaa5;
+    border-bottom: 0px;
+}
+.box img {
+    width: 110%;
+    border: 0 none;
+    margin: 10px;
+}
+
+.c {
+    clear: both;
+}
+.e{
+    clear: both;
+}
+
+th {
+    padding: 20px 0px 0 20px; 
 }
